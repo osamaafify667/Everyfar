@@ -448,3 +448,30 @@ if (dashboard) {
 
 }
 
+const glow = document.querySelector(".mouse-glow");
+
+function moveGlow(x, y){
+
+    glow.style.left = x + "px";
+    glow.style.top = y + "px";
+
+}
+
+// الكمبيوتر
+
+document.addEventListener("mousemove",(e)=>{
+
+    moveGlow(e.clientX,e.clientY);
+
+});
+
+// الموبايل
+
+document.addEventListener("touchmove",(e)=>{
+
+    moveGlow(
+        e.touches[0].clientX,
+        e.touches[0].clientY
+    );
+
+},{passive:true});
