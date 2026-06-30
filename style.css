@@ -933,3 +933,36 @@ color:#ff2b2b;
     }
 
 }
+
+/* ===== Mouse Glow ===== */
+
+.mouse-glow{
+
+    position:fixed;
+
+    width:350px;
+    height:350px;
+
+    border-radius:50%;
+
+    pointer-events:none;
+
+    background:radial-gradient(circle,
+    rgba(255,0,0,.22) 0%,
+    rgba(255,0,0,.12) 35%,
+    rgba(255,0,0,0) 75%);
+
+    filter:blur(45px);
+
+    transform:translate(-50%,-50%);
+
+    left:50%;
+    top:50%;
+
+    z-index:0;
+
+    transition:
+    left .08s linear,
+    top .08s linear;
+
+}
