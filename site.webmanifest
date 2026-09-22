@@ -1,0 +1,18 @@
+{
+  "name": "EVERYFAR - وكالة تسويق رقمي",
+  "short_name": "EVERYFAR",
+  "description": "وكالة تسويق رقمي في مصر: استراتيجيات تسويق، سوشيال ميديا، إعلانات ممولة، موشن جرافيك وتصاميم.",
+  "start_url": "/",
+  "display": "standalone",
+  "dir": "rtl",
+  "lang": "ar",
+  "background_color": "#0b0b0f",
+  "theme_color": "#0b0b0f",
+  "icons": [
+    {
+      "src": "assets/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
